@@ -1,4 +1,4 @@
-# trip_planner
+# AI_Trip_Planner
 基于langchain1.1版本和高德mcp server的多智能体agent旅游助手
 
 # AI旅行助手（AI Trip Planner）
