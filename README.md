@@ -36,17 +36,32 @@
 
 ## 项目结构
 
-* `trip_planner/` (目录)
-    * `trip_planner_agent.py`:       **多智能体核心逻辑**。
-    * `schemas.py`:       **Pydantic** 数据格式定义。
-    * `prompts.py`:       各 **Agent** 的系统提示词配置。
-    * `index.html`:       前端用户界面。
-    * `main.py`:       **FastAPI** 主入口。
-* `my_llm.py`: LLM (大型语言模型) 配置。
-* `env_utils.py`: 环境变量加载工具。
-* `requirements.txt`: 依赖列表。
-* `.env`: 环境变量模板 (**请自行填写！**)。
-* `README.md`: 项目说明文档。
+.
+├── trip_planner/
+│   ├── trip_planner_agent.py
+│   ├── schemas.py
+│   ├── prompts.py
+│   ├── index.html
+│   └── main.py
+├── my_llm.py
+├── env_utils.py
+├── requirements.txt
+├── .env
+└── README.md
+
+| 文件/目录 | 功能描述 |
+| :--- | :--- |
+| `trip_planner/` | 存放旅行规划核心逻辑和相关组件的目录。 |
+| `trip_planner/trip_planner_agent.py` | 实现了整个应用框架的多智能体核心逻辑。 |
+| `trip_planner/schemas.py` | 使用 Pydantic 定义所有输入、输出和内部数据的数据格式。 |
+| `trip_planner/prompts.py` | 集中管理和配置系统中各个 Agent 的系统提示词（System Prompts）。 |
+| `trip_planner/index.html` | 项目的前端页面文件。 |
+| `trip_planner/main.py` | 基于 FastAPI 框架构建的 API 主入口文件。 |
+| `my_llm.py` | 用于配置和初始化大型语言模型 (LLM) 访问参数。 |
+| `env_utils.py` | 环境变量加载工具，负责读取和处理项目配置。 |
+| `requirements.txt` | Python 项目所需的依赖库列表。 |
+| `.env` | 环境变量模板文件。**重要：** 使用前需要复制并根据实际环境填写配置。 |
+| `README.md` | 项目说明文档（当前文件）。 |
 
 ## 快速开始
 
