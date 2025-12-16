@@ -36,7 +36,7 @@
 
 ## 项目结构
 
-.
+- .
 - ├── trip_planner              
 - │   ├── trip_planner_agent.py   # 多智能体核心逻辑
 - │   ├── schemas.py              # Pydantic 数据格式定义
@@ -60,8 +60,8 @@
 
 - 配置环境变量
   在.env文件里配置自己的APIKey:
-    高德地图 Key 申请地址：https://lbs.amap.com/api/webservice/guide/api/key
-    通义千问 API：https://help.aliyun.com/zh/dashscope/
+    - 高德地图 Key 申请地址：https://lbs.amap.com/api/webservice/guide/api/key
+    - 通义千问 API：https://help.aliyun.com/zh/dashscope/
 
 - 启动后端
   python main.py 或使用 uvicorn main:app --reload --host 127.0.0.1 --port 8000
