@@ -16,7 +16,7 @@
 - 前端美观：Tailwind CSS + 响应式设计 + 手风琴式每日行程折叠
 - 支持用户自定义偏好和额外要求（如“多安排博物馆”“避免拥挤景点”）
 
-## 项目预览（文字描述）
+## 项目预览
 
 提交请求后，页面会展示：
 
@@ -35,4 +35,30 @@
 - **其他**: Pydantic v2、python-dotenv、httpx-sse、sse-starlette
 
 ## 项目结构
+
 <img width="607" height="301" alt="image" src="https://github.com/user-attachments/assets/9e328930-5f4b-402c-8906-dab04b3af461" />
+
+## 快速开始
+
+- 创建并激活虚拟环境（推荐）
+  conda create -n trip_planner python==3.11
+  conda activate trip_planner
+  
+- 安装依赖
+  pip install -r requirements.txt
+
+- 配置环境变量
+  在.env文件里配置自己的APIKey:
+    高德地图 Key 申请地址：https://lbs.amap.com/api/webservice/guide/api/key
+    通义千问 API：https://help.aliyun.com/zh/dashscope/
+
+- 启动后端
+  python main.py 或使用 uvicorn main:app --reload --host 127.0.0.1 --port 8000
+
+- 打开前端
+  - 可以下载vscode插件Live Server
+  - 或者直接在浏览器打开 index.html 文件，访问http://127.0.0.1:5500
+ 
+- 开始规划旅行！
+  填写表单 → 点击“生成行程计划” → 等待几秒即可看到详细计划。
+  
