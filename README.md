@@ -18,6 +18,9 @@
 - 前端美观：Tailwind CSS + 响应式设计 + 手风琴式每日行程折叠
 - 支持用户自定义偏好和额外要求（如“多安排博物馆”“避免拥挤景点”）
 
+<img width="1504" height="1170" alt="image" src="https://github.com/user-attachments/assets/40b3bd94-c354-4fbb-9bbd-a5a0396e9ec7" />
+
+
 ## 项目预览
 
 提交请求后，页面会展示：
